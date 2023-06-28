@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  padding-top: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+.container{
+  display: grid;
+margin: 20px;
+}
+.video-container{
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+  max-width: 400px;
+}
+.pfp-picture{
+  display: inline-block;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.details{
+  display: flex;
+  align-items: center;
+}
+.title{
+ font-size: 20px;
+ font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+ margin-left: 10px;
+
+  
+}
+.thumbnail-picture{
+  width: 100%;
+}
+.channel{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+ margin-left: 70px;
+ 
+}
