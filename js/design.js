@@ -26,14 +26,39 @@ document.querySelector('.side-bar-view').addEventListener('click', ()=>{
 
 //------------------------------------
 
-let video = [
-  {
-    thumbnail: "https://i.ytimg.com/vi/AJuRE_dnABM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDhdahxBmmRn0C7q77JBu-6TkUfHQ",
-    title: 'Hydra gettig smoked',
-    channelPfp: "https://media.istockphoto.com/id/850704730/photo/young-serious-guy-portrait-on-black-background-black-and-white-photo.jpg?s=612x612&w=0&k=20&c=lBJuY0SnTustfYp5zgWcYxn8_C61iHbFWweNNh83X1E=",
-    channelName: 'ZisanZee',
-    videoViews: '410k &#x2022; 10 hours ago'
-  }
-]
+
+let videoHtml = '';
+
+video.forEach((video)=>{
+  
+  
+  
+    videoHtml += `
+  
+
+    <div class="video-container">
+      <div class="thumbnai">
+        <img src="${video.thumbnail}" alt="" srcset="" class="thumbnail-picture">
+      </div>
+      <div class="details">
+        <img src="${video.channelPfp}" alt="" srcset="" class="pfp-picture">
+        
+        <div class="title">${video.title}</div>
+          
+        
+
+      </div>
+      <div class="channel">
+        <div class="channel-name">${video.channelName}</div>
+        <div class="viewcount">${video.videoViews}</div>
+      </div>
 
 
+    </div>
+
+
+
+
+`;});
+
+ document.querySelector('.container2').innerHTML = videoHtml;
