@@ -22,7 +22,7 @@ const video = [
   },
   {
     thumbnail: "https://i.ytimg.com/vi/AJuRE_dnABM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDhdahxBmmRn0C7q77JBu-6TkUfHQ",
-    title: 'Hydra gettig smoked',
+    title: 'idfk',
     channelPfp: "https://media.istockphoto.com/id/850704730/photo/young-serious-guy-portrait-on-black-background-black-and-white-photo.jpg?s=612x612&w=0&k=20&c=lBJuY0SnTustfYp5zgWcYxn8_C61iHbFWweNNh83X1E=",
     channelName: 'ZisanZee',
     videoViews: '410k &#x2022; 10 hours ago'
