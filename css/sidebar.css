@@ -1,14 +1,20 @@
+
+.side-bar-view{
+  z-index: 100;
+}
 .side-bar{
   display: flex;
   flex-direction: column;
   width: 160px;
-  background-color: rgb(216, 112, 112);
+  background-color: rgb(107, 20, 20);
   position: fixed;
   left: -160px;
   bottom: 0;
   top: 55px;
   align-items: center;
-  transition: left .3s;
+  transition: all .3s;
+  color: whitesmoke;
+  
 }
 .side-bar-container{
   display: flex;
@@ -27,11 +33,13 @@
   margin-top: 60px;
   border-bottom: 1px solid rgb(255, 180, 180);
   padding-bottom: 5px;
+  cursor: pointer;
   
 }
 .side-bar-on{
   left: 0; 
   transition: left .3s;
+  z-index: 1001;
 }
 
 .side-bar-view-black{
@@ -41,5 +49,6 @@
   right: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.299);
-  transition: background-color 1s;
+  
+  transition: all 1s;
 }
